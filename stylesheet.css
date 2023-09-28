@@ -1,0 +1,125 @@
+/* Reset some default styles for consistency */
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family:montserrat;
+    
+}
+nav {
+   background:#ce7e07;
+   height:100px;
+   width:100%;
+}
+label.logo{
+    color:white;
+    font-size:45px;
+    line-height:90px;
+    padding:0 120px;
+    font-weight:bold:
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size:17px;
+    text-transform:uppercase;
+}
+
+/* Basic styles for the header */
+header {
+    background-image:url('https://www.fabhotels.com/blog/famous-beaches-in-india/');
+    background-size: cover;
+    color:#a7601e;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+/* Style for featured destinations */
+.featured-destinations {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.featured-destinations h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.destination {
+    margin: 0 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+.destination img {
+    max-width: 200%;
+    height: 200px;
+    border: 1px solid #961414;
+    border-radius: 5px;
+}
+
+.destination h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Style for the login section */
+.Search  {
+    background-color: #539c6c;
+    text-align: center;
+    padding: 50px 0;
+}
+.Search h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Search p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.Search input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #850c0c;
+    border-radius: 5px;
+}
+
+. button {
+    background-color: #1a75d6;
+    color: #4b9463;
+    font-size: 50px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #e78e19;
+    color: rgb(26, 107, 107);
+    text-align: center;
+    padding: 20px 0;
+}
